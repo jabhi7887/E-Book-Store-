@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body style="background-image: linear-gradient(pink,red,black);">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="pics/Screenshot (6).png" height="70" width="140" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Boot.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Books_cat.html">Books Catalouge</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopping_cart.html">Shopping Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payment.html">Payment System</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="order_confirmation.html">Order Confirmation</a>
+            </li>
+            <li class="nav-item" style="padding-left: 500px;">
+              <a class="nav-link" href="#">Login/Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1>Books Catalogue</h1>
+        <form class="form-inline my-3">
+          <label for="genre" class="mr-2">Filter by genre:</label>
+          <select id="genre" class="form-control mr-2">
+            <option value="">All genres</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="romance">Romance</option>
+            <option value="science-fiction">Science Fiction</option>
+          </select>
+          <input type="text" class="form-control mr-2" placeholder="Search by title...">
+          <button type="submit" class="btn btn-primary">Filter/Search</button>
+        </form>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="https://via.placeholder.com/350x500" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Book Title</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Author Name</small>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="https://via.placeholder.com/350x500" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Book Title</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Author Name</small>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="https://via.placeholder.com/350x500" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Book Title</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Author Name</small>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+    <footer class="bg-light text-center">
+        <p>&copy; 2023 Online Book Store. All Rights Reserved.</p>
+      </footer>
+    </body>
+  </html>
